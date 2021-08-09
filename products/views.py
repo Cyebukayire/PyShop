@@ -6,5 +6,8 @@ def index(request):
     return HttpResponse('Hello World')
 
 
-def greet(request):
-    return HttpResponse("Hi Bay! How are you doing?")
+def new(request):
+    return HttpResponse('New Products.')
+
+
+
