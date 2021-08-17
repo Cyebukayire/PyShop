@@ -1,9 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1>Products</h1>
+    <p class="mt-4">
+        <span class="mr-3" style="color: #909091">Showing 1-12 of 6456 results</span>
+        Filter +</p>
     <div class="row">
         {% for product in products %}
-            <div class="col">
+            <div class="col mt-3 mb-5">
                 <div class="card" style="width: 18rem;">
                     <img src="{{ product.image_url }}" class="card-img-top" alt="...">
                     <div class="card-body">
