@@ -57,7 +57,11 @@
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
          <div class="ml-5 row">
-            <div class="col">heart</div>
+            <div class="col">
+              {% load static %}
+              {% static "images/heart1.png" %}
+              <img src="../static/images/heart1.png" style="">
+            </div>
             <div class="col">cart</div>
          </div>
       </div>
