@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '+i-yc4*&qx^$%ec28ae$h#fl+o_ln1b=wnu=8%sq+_szc4h92v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['mypyshop.herokuapp.com']
 
