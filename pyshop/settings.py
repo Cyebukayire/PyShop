@@ -26,7 +26,7 @@ SECRET_KEY = '+i-yc4*&qx^$%ec28ae$h#fl+o_ln1b=wnu=8%sq+_szc4h92v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mypyshop.herokuapp.com']
 
 
 # Application definition
