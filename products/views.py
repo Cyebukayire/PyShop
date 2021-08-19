@@ -8,9 +8,9 @@ def index(request):
 
 
 def products(request):
-    products = Product.objects.all()
+    get_products = Product.objects.all()
     return render(request, 'products.html',
-                  {'products': products})
+                  {'products': get_products})
 
 
 def new(request):
